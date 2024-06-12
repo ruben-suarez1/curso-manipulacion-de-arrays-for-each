@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+        const platos = [
+            { title: 'Burger', price: 121 },
+            { title: 'Pasta', price: 121 },
+            { title: 'Arroz Paisa', price: 121 },
+            { title: 'Tamal', price: 121 },
+            { title: 'Lechona', price: 121 }
+        ];
+
+        const app = document.getElementById('app');
+        platos.forEach(plato => {
+            app.innerHTML += `<li>${plato.title}</li>`;
+        });
+    </script>
+</body>
+</html>
