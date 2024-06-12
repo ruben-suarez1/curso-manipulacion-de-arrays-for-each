@@ -16,6 +16,5 @@ Este proyecto muestra una lista de tareas con su estado (Pendiente o Completada)
 ## Instrucciones
 
 1. Clona el repositorio o descarga los archivos del proyecto.
-2. Abre el archivo `index.html` en tu navegador.
 
 ![Lista de tareas](image.png)
